@@ -1,15 +1,15 @@
 module.exports = {
-  siteTitle: 'Gatsby Starter Resume', // <title>
+  siteTitle: 'Damian Filipkowski', // <title>
   manifestName: 'Resume',
   manifestShortName: 'Landing', // max 12 characters
   manifestStartUrl: '/',
-  manifestBackgroundColor: '#663399',
-  manifestThemeColor: '#663399',
+  manifestBackgroundColor: '#3776ab',
+  manifestThemeColor: '#ffdf76',
   manifestDisplay: 'standalone',
-  manifestIcon: 'src/assets/img/website-icon.png',
-  pathPrefix: `/gatsby-starter-resume/`, // This path is subpath of your hosting https://domain/portfolio
-  firstName: 'Anubhav',
-  lastName: 'Srivastava',
+  manifestIcon: 'src/assets/img/favicon.png',
+  pathPrefix: `/resume/`, // This path is subpath of your hosting https://domain/portfolio
+  firstName: 'Damian',
+  lastName: 'Filipkowski',
   // social
   socialLinks: [
     {
@@ -33,7 +33,7 @@ module.exports = {
       url: 'https://facebook.com/theanubhav',
     },
   ],
-  email: 'anubhav.srivastava00@gmail.com',
-  phone: '000-00000',
-  address: '305 Del Sol, Sunnyvale, CA',
+  email: 'damian.filipkowski@gmail.com',
+  phone: '+48 608-453-761',
+  address: 'Gdańsk, Poland',
 };
