@@ -16,22 +16,17 @@ module.exports = {
     {
       icon: 'fa-github',
       name: 'Github',
-      url: 'https://github.com/anubhavsrivastava',
+      url: 'https://github.com/kodyliszek/',
     },
     {
       icon: 'fa-linkedin-in',
       name: 'Linkedin',
-      url: 'https://linkedin.com/in/theanubhav/',
+      url: 'https://www.linkedin.com/in/damian-filipkowski/',
     },
     {
-      icon: 'fa-twitter',
+      icon: 'fa-codepen',
       name: 'Twitter',
-      url: 'https://twitter.com/onlyanubhav',
-    },
-    {
-      icon: 'fa-facebook-f',
-      name: 'Facebook',
-      url: 'https://facebook.com/theanubhav',
+      url: 'https://github.com/kodyliszek/',
     },
   ],
   email: 'damian.filipkowski@gmail.com',

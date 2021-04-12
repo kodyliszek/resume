@@ -36,19 +36,17 @@ export class Sidebar extends Component {
         id="sideNav"
       >
         <a className="navbar-brand" href="#page-top">
-          <span className="d-block d-lg-none">
-            {config.firstName} {config.lastName}
-          </span>
-          <span className="d-none d-lg-block">
+          <span className="d-inline-block d-lg-block">
             <Scroll type="id" element="about">
-              <a className="nav-link" href={`#about`}>
-                <img
-                  className="img-fluid img-profile rounded-circle mx-auto mb-2"
-                  src={avatar}
-                  alt=""
-                />
-              </a>
+              <img
+                className="img-fluid img-profile rounded-circle mx-auto mb-2"
+                src={avatar}
+                alt="profile"
+              />
             </Scroll>
+          </span>
+          <span className="d-inline-block d-lg-none ml-3">
+            {config.firstName} {config.lastName}
           </span>
         </a>
         <button
