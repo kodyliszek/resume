@@ -10,6 +10,7 @@ module.exports = {
   pathPrefix: `/resume/`, // This path is subpath of your hosting https://domain/portfolio
   firstName: 'Damian',
   lastName: 'Filipkowski',
+  role: 'Python Developer',
   // social
   socialLinks: [
     {

@@ -18,15 +18,15 @@ const IndexPage = () => (
             {config.firstName}
             <span className="text-primary">{config.lastName}</span>
           </h1>
+          <h2 className="mb-0">{config.role}</h2>
           <div className="subheading mb-5">
             {config.address} · {config.phone} ·
             <a href={`mailto:${config.email}`}>{config.email}</a>
           </div>
           <p className="lead mb-5">
-            I am experienced in leveraging agile frameworks to provide a robust
-            synopsis for high level overviews. Iterative approaches to corporate
-            strategy foster collaborative thinking to further the overall value
-            proposition.
+            A former sailor, enchanted by three charming mermaids, decided to
+            spend the rest of his life on a dry land, sailing between the waves
+            of code.
           </p>
           <div className="social-icons">
             {config.socialLinks.map(social => {
@@ -52,69 +52,80 @@ const IndexPage = () => (
 
           <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
             <div className="resume-content">
-              <h3 className="mb-0">Senior Web Developer</h3>
-              <div className="subheading mb-3">Intelitec Solutions</div>
-              <p>
-                Bring to the table win-win survival strategies to ensure
-                proactive domination. At the end of the day, going forward, a
-                new normal that has evolved from generation X is on the runway
-                heading towards a streamlined cloud solution. User generated
-                content in real-time will have multiple touchpoints for
-                offshoring.
-              </p>
+              <h3 className="mb-0">Python Trainer</h3>
+              <div className="subheading mb-3">infoShare Academy</div>
+              <p>Knowledge spreading across the universe...</p>
             </div>
             <div className="resume-date text-md-right">
-              <span className="text-primary">March 2013 - Present</span>
+              <span className="text-primary">May 2019 - Present</span>
             </div>
           </div>
 
           <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
             <div className="resume-content">
-              <h3 className="mb-0">Web Developer</h3>
-              <div className="subheading mb-3">Intelitec Solutions</div>
+              <h3 className="mb-0">Software Engineer</h3>
+              <div className="subheading mb-3">HAPAG LLOYD</div>
               <p>
-                Capitalize on low hanging fruit to identify a ballpark value
-                added activity to beta test. Override the digital divide with
-                additional clickthroughs from DevOps. Nanotechnology immersion
-                along the information highway will close the loop on focusing
-                solely on the bottom line.
+                This is the place where I managed to combine the experience
+                gathered at sea and the skills gained in the IT industry. Thanks
+                to experienced colleagues, I learned Java, Vue.js and how to
+                swing in the clouds (AWS) and not fall down. I found out that
+                some problems may not be as trival as they look on a first sight
+                and much more.
               </p>
             </div>
             <div className="resume-date text-md-right">
-              <span className="text-primary">December 2011 - March 2013</span>
+              <span className="text-primary">January 2020 - April 2021</span>
             </div>
           </div>
 
           <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
             <div className="resume-content">
-              <h3 className="mb-0">Junior Web Designer</h3>
-              <div className="subheading mb-3">Shout! Media Productions</div>
+              <h3 className="mb-0">Python Developer</h3>
+              <div className="subheading mb-3">Blue Services</div>
               <p>
-                Podcasting operational change management inside of workflows to
-                establish a framework. Taking seamless key performance
-                indicators offline to maximise the long tail. Keeping your eye
-                on the ball while performing a deep dive on the start-up
-                mentality to derive convergence on cross-platform integration.
+                I had a lot of fun working there because I could do what I feel
+                best in, solve problems. Web applications for the banking and
+                insurance sector it was my everyday life. High-performance and
+                scalable sales systems were challenges that I loved. It was a
+                miracle that I still found some time for machine learning and
+                data science.
               </p>
             </div>
             <div className="resume-date text-md-right">
-              <span className="text-primary">July 2010 - December 2011</span>
+              <span className="text-primary">
+                September 2017 - January 2020
+              </span>
+            </div>
+          </div>
+
+          <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+            <div className="resume-content">
+              <h3 className="mb-0">JUNIOR PYTHON DEVELOPER</h3>
+              <div className="subheading mb-3">SAMSUNG ELECTRONICS</div>
+              <p>
+                First job in IT, first challenges, new technologies and a lot of
+                fun (I mean work). The world of tests for mobile devices stood
+                in front of me. Particularly a lot of work and commitment went
+                into the Bixby project, which I am proud of. Now, I think that
+                thanks to the experience gained in Samsung, I understand better
+                what may go wrong in the future, which is why I create better
+                code and I am better developer.
+              </p>
+            </div>
+            <div className="resume-date text-md-right">
+              <span className="text-primary">June 2017 - September 2017</span>
             </div>
           </div>
 
           <div className="resume-item d-flex flex-column flex-md-row justify-content-between">
             <div className="resume-content">
-              <h3 className="mb-0">Web Design Intern</h3>
-              <div className="subheading mb-3">Shout! Media Productions</div>
-              <p>
-                Collaboratively administrate empowered markets via plug-and-play
-                networks. Dynamically procrastinate B2C users after installed
-                base benefits. Dramatically visualize customer directed
-                convergence without revolutionary ROI.
-              </p>
+              <h3 className="mb-0">Seafarer / Academic Teacher</h3>
+              <div className="subheading mb-3">Gdynia Maritime Univerity</div>
+              <p>Adventure and beautiful memory ...</p>
             </div>
             <div className="resume-date text-md-right">
-              <span className="text-primary">September 2008 - June 2010</span>
+              <span className="text-primary">October 2008 - November 2016</span>
             </div>
           </div>
         </div>
@@ -131,24 +142,36 @@ const IndexPage = () => (
 
           <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
             <div className="resume-content">
-              <h3 className="mb-0">University of Colorado Boulder</h3>
-              <div className="subheading mb-3">Bachelor of Science</div>
-              <div>Computer Science - Web Development Track</div>
-              <p>GPA: 3.23</p>
+              <h3 className="mb-0">CodersLab Bootcamp</h3>
+              <div className="subheading">Python Backend Developer</div>
+              <div>Computer Science - Web Development</div>
             </div>
             <div className="resume-date text-md-right">
-              <span className="text-primary">August 2006 - May 2010</span>
+              <span className="text-primary">February 2017 - April 2017</span>
             </div>
           </div>
 
-          <div className="resume-item d-flex flex-column flex-md-row justify-content-between">
+          <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
             <div className="resume-content">
-              <h3 className="mb-0">James Buchanan High School</h3>
-              <div className="subheading mb-3">Technology Magnet Program</div>
-              <p>GPA: 3.56</p>
+              <h3 className="mb-0">Gdynia Maritime Univerity</h3>
+              <div className="subheading">Master od Science</div>
+              <div>Nautical Studies</div>
             </div>
             <div className="resume-date text-md-right">
-              <span className="text-primary">August 2002 - May 2006</span>
+              <span className="text-primary">
+                October 2004 - September 2009
+              </span>
+            </div>
+          </div>
+
+          <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+            <div className="resume-content">
+              <h3 className="mb-0">Nautical Maritime College of Ireland</h3>
+              <div className="subheading">Bachelor od Science</div>
+              <div>Nautical Studies</div>
+            </div>
+            <div className="resume-date text-md-right">
+              <span className="text-primary">January 2008 - June 2008</span>
             </div>
           </div>
         </div>
@@ -168,6 +191,9 @@ const IndexPage = () => (
           </div>
           <ul className="list-inline dev-icons">
             <li className="list-inline-item">
+              <i className="fab fa-python"></i>
+            </li>
+            <li className="list-inline-item">
               <i className="fab fa-html5"></i>
             </li>
             <li className="list-inline-item">
@@ -177,31 +203,22 @@ const IndexPage = () => (
               <i className="fab fa-js-square"></i>
             </li>
             <li className="list-inline-item">
-              <i className="fab fa-angular"></i>
-            </li>
-            <li className="list-inline-item">
               <i className="fab fa-react"></i>
             </li>
             <li className="list-inline-item">
               <i className="fab fa-node-js"></i>
             </li>
             <li className="list-inline-item">
-              <i className="fab fa-sass"></i>
-            </li>
-            <li className="list-inline-item">
-              <i className="fab fa-less"></i>
-            </li>
-            <li className="list-inline-item">
-              <i className="fab fa-wordpress"></i>
-            </li>
-            <li className="list-inline-item">
-              <i className="fab fa-gulp"></i>
-            </li>
-            <li className="list-inline-item">
-              <i className="fab fa-grunt"></i>
-            </li>
-            <li className="list-inline-item">
               <i className="fab fa-npm"></i>
+            </li>
+            <li className="list-inline-item">
+              <i className="fab fa-docker"></i>
+            </li>
+            <li className="list-inline-item">
+              <i className="fab fa-aws"></i>
+            </li>
+            <li className="list-inline-item">
+              <i className="fab fa-vuejs"></i>
             </li>
           </ul>
 
@@ -209,19 +226,19 @@ const IndexPage = () => (
           <ul className="fa-ul mb-0">
             <li>
               <i className="fa-li fa fa-check"></i>
-              Mobile-First, Responsive Design
+              TDD - Test Driven Design
             </li>
             <li>
               <i className="fa-li fa fa-check"></i>
-              Cross Browser Testing &amp; Debugging
+              Agile Development - Scrum
             </li>
             <li>
               <i className="fa-li fa fa-check"></i>
-              Cross Functional Teams
+              Agile Development - Kanban
             </li>
             <li>
               <i className="fa-li fa fa-check"></i>
-              Agile Development &amp; Scrum
+              Clean Code - SOLID
             </li>
           </ul>
         </div>
@@ -235,18 +252,52 @@ const IndexPage = () => (
       >
         <div className="w-100">
           <h2 className="mb-5">Interests</h2>
-          <p>
-            Apart from being a web developer, I enjoy most of my time being
-            outdoors. In the winter, I am an avid skier and novice ice climber.
-            During the warmer months here in Colorado, I enjoy mountain biking,
-            free climbing, and kayaking.
-          </p>
-          <p className="mb-0">
-            When forced indoors, I follow a number of sci-fi and fantasy genre
-            movies and television shows, I am an aspiring chef, and I spend a
-            large amount of my free time exploring the latest technology
-            advancements in the front-end web development world.
-          </p>
+          <ul className="fa-ul mb-4">
+            <li>
+              <i className="fa-li fa fa-check"></i>
+              Writing Short Novel Stories
+            </li>
+            <li>
+              <i className="fa-li fa fa-check"></i>
+              Homebrewing
+            </li>
+            <li>
+              <i className="fa-li fa fa-check"></i>
+              Board Games
+            </li>
+            <li>
+              <i className="fa-li fa fa-check"></i>
+              Sports - Football
+            </li>
+            <li>
+              <i className="fa-li fa fa-check"></i>
+              Indiana Jones Movies
+            </li>
+            <li>
+              <i className="fa-li fa fa-check"></i>
+              Collectible Card Games
+            </li>
+          </ul>
+          <ul className="list-inline dev-icons">
+            <li className="list-inline-item">
+              <i className="fas fa-feather"></i>
+            </li>
+            <li className="list-inline-item">
+              <i className="fas fa-beer"></i>
+            </li>
+            <li className="list-inline-item">
+              <i className="fas fa-dice"></i>
+            </li>
+            <li className="list-inline-item">
+              <i className="fas fa-futbol"></i>
+            </li>
+            <li className="list-inline-item">
+              <i className="fab fa-redhat"></i>
+            </li>
+            <li className="list-inline-item">
+              <i class="fab fa-wizards-of-the-coast"></i>
+            </li>
+          </ul>
         </div>
       </section>
 
@@ -260,35 +311,13 @@ const IndexPage = () => (
           <h2 className="mb-5">Awards &amp; Certifications</h2>
           <ul className="fa-ul mb-0">
             <li>
-              <i className="fa-li fa fa-trophy text-warning"></i>
-              Google Analytics Certified Developer
+              <i className="fa-li fas fa-award text-secondary"></i>
+              Faculty of Navigation Dean's Award for academic achievements
             </li>
             <li>
-              <i className="fa-li fa fa-trophy text-warning"></i>
-              Mobile Web Specialist - Google Certification
-            </li>
-            <li>
-              <i className="fa-li fa fa-trophy text-warning"></i>1<sup>st</sup>
-              Place - University of Colorado Boulder - Emerging Tech Competition
-              2009
-            </li>
-            <li>
-              <i className="fa-li fa fa-trophy text-warning"></i>1<sup>st</sup>
-              Place - University of Colorado Boulder - Adobe Creative Jam 2008
-              (UI Design Category)
-            </li>
-            <li>
-              <i className="fa-li fa fa-trophy text-warning"></i>2<sup>nd</sup>
-              Place - University of Colorado Boulder - Emerging Tech Competition
-              2008
-            </li>
-            <li>
-              <i className="fa-li fa fa-trophy text-warning"></i>1<sup>st</sup>
-              Place - James Buchanan High School - Hackathon 2006
-            </li>
-            <li>
-              <i className="fa-li fa fa-trophy text-warning"></i>3<sup>rd</sup>
-              Place - James Buchanan High School - Hackathon 2005
+              <i className="fa-li fa fa-trophy text-secondary"></i>
+              Gdynia Maritime University Rector's Award for didactic
+              achievements
             </li>
           </ul>
         </div>

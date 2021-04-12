@@ -40,11 +40,15 @@ export class Sidebar extends Component {
             {config.firstName} {config.lastName}
           </span>
           <span className="d-none d-lg-block">
-            <img
-              className="img-fluid img-profile rounded-circle mx-auto mb-2"
-              src={avatar}
-              alt=""
-            />
+            <Scroll type="id" element="about">
+              <a className="nav-link" href={`#about`}>
+                <img
+                  className="img-fluid img-profile rounded-circle mx-auto mb-2"
+                  src={avatar}
+                  alt=""
+                />
+              </a>
+            </Scroll>
           </span>
         </a>
         <button
