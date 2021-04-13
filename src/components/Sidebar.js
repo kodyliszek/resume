@@ -44,7 +44,7 @@ export class Sidebar extends Component {
       >
         <a className="navbar-brand" href="#page-top">
           <span className="d-inline-block d-lg-block">
-            <Scroll type="id" element="about">
+            <Scroll type="id" onScrollClick={this.hideNavbar} element="about">
               <img
                 className="img-fluid img-profile rounded-circle mx-auto mb-2"
                 src={avatar}
