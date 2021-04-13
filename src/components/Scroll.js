@@ -23,6 +23,7 @@ class Scroll extends React.Component {
   }
   handleClick(e) {
     e.preventDefault();
+    this.props.onScrollClick();
     let elem = 0;
     let scroll = true;
     const { type, element, offset, timeout } = this.props;

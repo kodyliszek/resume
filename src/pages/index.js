@@ -30,9 +30,9 @@ const IndexPage = () => (
           </p>
           <div className="social-icons">
             {config.socialLinks.map(social => {
-              const { icon, url } = social;
+              const { icon, name, url } = social;
               return (
-                <a key={url} href={url}>
+                <a key={name} href={url}>
                   <i className={`fab ${icon}`}></i>
                 </a>
               );
@@ -295,7 +295,7 @@ const IndexPage = () => (
               <i className="fab fa-redhat"></i>
             </li>
             <li className="list-inline-item">
-              <i class="fab fa-wizards-of-the-coast"></i>
+              <i className="fab fa-wizards-of-the-coast"></i>
             </li>
           </ul>
         </div>

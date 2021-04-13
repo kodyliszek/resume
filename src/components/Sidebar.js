@@ -20,11 +20,18 @@ export class Sidebar extends Component {
       isCollapsed: true,
     };
     this.toggleNavbar = this.toggleNavbar.bind(this);
+    this.hideNavbar = this.hideNavbar.bind(this);
   }
 
   toggleNavbar() {
     this.setState({
       isCollapsed: !this.state.isCollapsed,
+    });
+  }
+
+  hideNavbar() {
+    this.setState({
+      isCollapsed: true,
     });
   }
 
@@ -76,7 +83,12 @@ export class Sidebar extends Component {
               const { href, content } = tab;
               return (
                 <li className="nav-item" key={href}>
-                  <Scroll type="id" element={href}>
+                  <Scroll
+                    type="id"
+                    offset={!isCollapsed ? -50 : 0}
+                    onScrollClick={this.hideNavbar}
+                    element={href}
+                  >
                     <a className="nav-link" href={`#${href}`}>
                       {content}
                     </a>

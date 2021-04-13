@@ -25,8 +25,8 @@ module.exports = {
     },
     {
       icon: 'fa-codepen',
-      name: 'Twitter',
-      url: 'https://github.com/kodyliszek/',
+      name: 'CodePen',
+      url: 'https://codepen.io/',
     },
   ],
   email: 'damian.filipkowski@gmail.com',
