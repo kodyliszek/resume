@@ -52,6 +52,17 @@ const IndexPage = () => (
 
           <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
             <div className="resume-content">
+              <h3 className="mb-0">Senior Python Developer</h3>
+              <div className="subheading mb-3">Datacapt</div>
+              <p>A new endavour...</p>
+            </div>
+            <div className="resume-date text-md-right">
+              <span className="text-primary">July 2024 - Present</span>
+            </div>
+          </div>
+
+          <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+            <div className="resume-content">
               <h3 className="mb-0">Python Trainer</h3>
               <div className="subheading mb-3">infoShare Academy</div>
               <p>Knowledge spreading across the universe...</p>
@@ -63,8 +74,24 @@ const IndexPage = () => (
 
           <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
             <div className="resume-content">
+              <h3 className="mb-0">Senior Python Developer</h3>
+              <div className="subheading mb-3">Idego</div>
+              <p>
+               Idego allowed me to spread my wings. Working on a rather demanding project for one of 
+                the large financial institutions not only taught me a lot, but also gave me a lot of satisfaction. 
+                This is where I had my first chance to prove myself as an architect by planning and
+                building some of the microservices from start to finish.
+              </p>
+            </div>
+            <div className="resume-date text-md-right">
+              <span className="text-primary">April 2021 - June 2024</span>
+            </div>
+          </div>
+
+          <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+            <div className="resume-content">
               <h3 className="mb-0">Software Engineer</h3>
-              <div className="subheading mb-3">HAPAG LLOYD</div>
+              <div className="subheading mb-3">Hapag Lloyd</div>
               <p>
                 This is the place where I managed to combine the experience
                 gathered at sea and the skills gained in the IT industry. Thanks
